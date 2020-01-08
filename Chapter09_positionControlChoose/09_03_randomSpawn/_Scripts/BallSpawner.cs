@@ -31,7 +31,6 @@ public class BallSpawner : MonoBehaviour
     private void CreateSphere()
     {
         GameObject spawnPoint = spawnPointManager.RandomSpawnPoint ();
-//      GameObject spawnPoint = spawnPointManager.NearestSpawnpoint(transform.position);
 
         // only try to instantiate prefab if spawnpoint is NOT null
         if(spawnPoint){
